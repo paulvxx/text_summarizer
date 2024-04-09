@@ -50,7 +50,8 @@ print(file_path)
 #f.close()
 
 files = [('sequences100_test.csv',100), ('sequences200_validate.csv',200), ('sequences500_test.csv',500), 
-         ('sequences1000_train.csv',1000), ('sequences1000_validate.csv',1000), ('sequences5000_train.csv',5000)]
+         ('sequences1000_train.csv',1000), ('sequences1000_validate.csv',1000), ('sequences5000_train.csv',5000),
+         ('sequences10000_test.csv',20000), ('sequences20000_validate.csv',40000), ('sequences100000_train.csv',200000)]
 
 for filename in files:
   file_path = os.path.join(data_dir, filename[0])
